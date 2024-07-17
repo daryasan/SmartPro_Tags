@@ -2,9 +2,9 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url:
-    username:
-    password:
+    url: jdbc:postgresql://localhost:5432/smartpro_tags
+    username: postgres
+    password: 1234
   jpa:
     properties:
       hibernate:
